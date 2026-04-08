@@ -157,8 +157,7 @@ ReduceLROnPlateau(monitor="val_loss", factor=0.2, patience=2)
 | Metric | 🟨 Custom CNN (Keras) | 🟦 YOLOv8n-cls | 🟥 ResNet50V2 + Tuner (This) |
 |---|:---:|:---:|:---:|
 | **Test Accuracy** | ~68% | 75.3% | **92.69%** |
-| **Val Accuracy** | ~68% | 75.3% | **93.30%** |
-| **Top-5 Accuracy** | ~95% | 98.5% | ~99%+ |
+| **Val Accuracy** | ~68% | 96.7% | **93.30%** |
 | **Parameters** | ~1–2M | 1.45M | ~23.5M |
 | **Pretrained Weights** | ❌ | ✅ ImageNet | ✅ ImageNet |
 | **Framework** | TensorFlow / Keras | Ultralytics / PyTorch | TensorFlow / Keras |
